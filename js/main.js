@@ -19,4 +19,20 @@ const intvl = setInterval(() => {
   const minutes = math.floor(distance % (1000 * 60 * 60)) / (1000 * 60)
 
   const seconds = math.floor(distance % (1000 * 60)) / (1000)
+
+  // display result
+  countdown.innerHTML = `
+  <div>${days}<span>days</span></div>
+  <div>${hours}<span>hours</span></div>
+  <div>${minutes}<span>minutes</span></div>
+  <div>${seconds}<span>seconds</span></div>
+  `
+
+  // if launch date passed
+  if (distance < 0) {
+    // stop countdown
+    clearInterval(intvl)
+    // style and output text
+
+  }
 }, 1000)
