@@ -33,6 +33,7 @@ const intvl = setInterval(() => {
     // stop countdown
     clearInterval(intvl)
     // style and output text
-
+    countdown.style.color = '#17a2b8'
+    countdown.innerHTML = 'launched!'
   }
 }, 1000)
