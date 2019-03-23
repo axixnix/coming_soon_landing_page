@@ -44,3 +44,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.countdown div {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  opacity: 0.7;
+  background: #000;
+  margin: 5px;
+}
