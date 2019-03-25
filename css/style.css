@@ -54,6 +54,10 @@ body {
   margin: 5px;
 }
 
+.countdown div:first-child {
+  background: #17a2b8;
+}
+
 .countdown span {
   display: block;
   font-size: 25px;
