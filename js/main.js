@@ -3,8 +3,6 @@ const countdown = document.querySelector('.countdown')
 // set launch date (milliseconds)
 const launchDate = new Date('Jan 29,2020 13:00:00').getTime()
 
-console.log(launchDate)
-
 // update every second
 const intvl = setInterval(() => {
   // get today's date and time (milliseconds)

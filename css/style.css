@@ -82,7 +82,7 @@ body {
   }
 
   .countdown div:first-child {
-    display: block;
+    display: block; /*or Brad quick trick. You can use this pseduo selector to hide everything but the first child .countdown div:not(:first-child) { display: none; }﻿*/
   }
 }
 
